@@ -8,7 +8,10 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
-
+#Gems for the bootstrap
+gem 'bootstrap-sass', '~> 3.3.6'
+#gem for jQuery, bootstrap depends on jQuery
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
